@@ -1,0 +1,6 @@
+## IDF Component Manager Manifest File
+dependencies:
+  idf:
+    version: ">=5.0"
+  espressif/mdns: "^1.2.1"
+  espressif/esp32-camera: "^2.0.5"

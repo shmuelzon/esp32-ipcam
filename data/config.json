@@ -1,0 +1,45 @@
+{
+  "network": {
+    "wifi": {
+      "ssid": "MY_SSIP",
+      "password": "MY_PASSWORD"
+    }
+  },
+  "mqtt": {
+    "server": {
+      "host": "192.168.1.1",
+      "port": 1883
+    },
+    "publish": {
+      "retain": true
+    }
+  },
+  "rtp": {
+    "host": "225.5.5.5",
+    "video_port": 5000,
+    "audio_port": 5002,
+    "ttl": 2
+  },
+  "camera": {
+    "pins": {
+      "pwdn": -1,
+      "reset": -1,
+      "xclk": -1,
+      "siod": -1,
+      "sioc": -1,
+      "d7": -1,
+      "d6": -1,
+      "d5": -1,
+      "d4": -1,
+      "d3": -1,
+      "d2": -1,
+      "d1": -1,
+      "d0": -1,
+      "vsync": -1,
+      "href": -1,
+      "pclk": -1
+    },
+    "resolution": "800x600",
+    "fps": 10
+  }
+}
